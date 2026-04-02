@@ -9,13 +9,13 @@ public abstract class ExpenseDecorator implements Expense{
     }
 
     //Gives the wrapped expense object a description
-    @override
-    public String getDiscription(){
-        return expense.getDiscription();
+    @Override 
+    public String getDescription(){
+        return expense.getDescription();
     }
 
     //Gives the wrapped expense object a cost
-    @override
+    @Override 
     public double getCost(){
         return expense.getCost();
     }

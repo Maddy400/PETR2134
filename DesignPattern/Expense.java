@@ -1,6 +1,6 @@
 public interface Expense{
     //Returns the description of the expense
-    String getDiscription();
+    String getDescription();
 
     //Returns the total cost 
     double getCost();

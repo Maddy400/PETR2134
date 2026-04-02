@@ -9,13 +9,13 @@ public class BasicExpense implements Expense{
     }
 
     //Returns the description of the expense
-    @override 
-    public String getDiscription(){
-        return "Base Expense"
+    @Override 
+    public String getDescription(){
+        return "Base Expense";
     }
 
     //Returns the base cost
-    @override
+    @Override 
     public double getCost(){
         return amount;
     }

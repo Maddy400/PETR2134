@@ -6,7 +6,7 @@ public class BudgetApp{
         Expense expense1 = new BasicExpense(70);
 
         //Prints base expense
-        System.out.println(expense1.getDiscription() + "= £" + expense1.getCost());
+        System.out.println(expense1.getDescription() + "= £" + expense1.getCost());
 
         //Expense with tax applied
         Expense expense2 = new TaxDecorator(new BasicExpense(70));

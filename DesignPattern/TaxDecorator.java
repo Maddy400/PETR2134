@@ -6,13 +6,13 @@ public class TaxDecorator extends ExpenseDecorator{
     }
 
     //Adds tax label to the description
-    @override 
-    public String getDiscription(){
-        return super.getDiscription() "+ Tax";
+    @Override 
+    public String getDescription(){
+        return super.getDescription() + "+ Tax";
     }
 
     //Adds 20% tax to the cost
-    @override
+    @Override 
     public double getCost(){
         return super.getCost() * 1.20;
     }

@@ -7,8 +7,8 @@ public class ServiceFeeDecorator extends ExpenseDecorator{
 
     //Adds a service fee label to the description
     @Override
-    public String getDiscription(){
-        return super.getDiscription() + "+ Service Fee";
+    public String getDescription(){
+        return super.getDescription() + "+ Service Fee";
     }
 
     //Adds service fee
