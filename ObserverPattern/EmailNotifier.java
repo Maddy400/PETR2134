@@ -2,6 +2,6 @@
 public class EmailNotifier implements AccountObserver {
     @Override
     public void update(double balance, String transaction) {
-        System.out.println("Email: Transaction alert -> " + transaction + ". New balance: £" + balance);
+        System.out.println("Email: Transaction alert: " + transaction + ". New balance: £" + balance);
     }
 }
